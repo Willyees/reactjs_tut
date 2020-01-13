@@ -4,15 +4,14 @@ import './index.css';
 import App from './App.js';
 import { readdirSync } from 'fs';
 
-class Square extends React.Component {
-    render() {
-        return (
-            <button className="square" onClick={() => { this.props.onClick()}}>
-                {this.props.val}
-            </button>
-        );
-    }
+function Square(props) {
+    return (
+        <button className="square" onClick={props.onClick}>
+            {props.val}
+        </button>
+    );
 }
+
 
 class Board extends React.Component {
     constructor(props) {
