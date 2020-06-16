@@ -1,3 +1,16 @@
+Tutorial learning to build TicTacToe using ReactJS, to understand the basics and get ready for MEng project.
+
+Tutorial can be found at [here](https://reactjs.org/tutorial/tutorial.html)
+
+
+In this tutorial has been explored the concepts of props, states, components, passing data and rendering all using ReactJS.
+
+
+Final product is a clean grid where it can be played a match of tic tac toe
+![winner](https://github.com/Willyees/reactjs_tut/blob/assets/assets/winner.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
